@@ -85,7 +85,6 @@ def update_score(score):
 
 # restart
 def reset_ball():
-  global ball_speed_x, ball_speed_y
   ball.x = screen_width/2 - 10
   ball.y = screen_height/2 - 10
 
